@@ -1,0 +1,9 @@
+node_modules/
+.idea/
+.venv/
+dist/
+logs/
+*.log
+*.tmp
+*.temp
+npm-debug.log*
