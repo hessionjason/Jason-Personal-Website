@@ -108,3 +108,13 @@ for (let i = 0; i < navigationLinks.length; i++) {
 
     });
 }
+
+
+function toggleDetails(itemId) {
+    var item = document.getElementById(itemId);
+    if (item.style.display === 'block') {
+        item.style.display = 'none';
+    } else {
+        item.style.display = 'block';
+    }
+}
